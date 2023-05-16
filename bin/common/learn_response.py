@@ -1,6 +1,6 @@
 
 def learn_chat(filepath, data):
-    f = open(filepath, "a")
+    f = open(filepath, "w")
     f.write(str(data))
     f.close()
 
